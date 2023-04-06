@@ -1,1 +1,1 @@
-Choose your pokemon
+> Choose your Pokemon
