@@ -52,3 +52,22 @@ cd (path goes here)  | Changes the working directory
 pwd                  | Displays the current working directory 
 ls (path goes here)  | Can show me the files and folders in the given path determined by the directory 
 
+3 More commands I tried in lab were the following:
+```
+ls -lat & ls -a
+```
+![Image5](image1.png)
+![Image6](image2.png)
+
+The ls part of the command lists the files and folders in the given path. However the -a and -lat part of the command allows me to see different files
+`-a` Alows ls to show the files including the hidden ones
+`-lat` Alows ls to show the hidden files, as well as additional information about the files such as the date, owner, group, size, and permissions.
+I also had pwd to tell me what my current directory was so I don't get lost.
+
+Another command I tried is 
+`cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
+cp allowed me to copy a file from the directory and the ~/ at the end is referring to my home directory. So what this command is doing is copying the hello.txt file from the /home/linux/ieng6/cs15lsp23/public directory to my home directory.
+
+This then allowed me to use the command `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` to display the hello.txt file in my terminal.
+![Image7](image3.png)
+
