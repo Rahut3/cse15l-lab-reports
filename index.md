@@ -1,13 +1,7 @@
-# ***Test Header*** 
-> Choose your Pokemon
+# Rahut's Lab Reports
+> Year 1
 ---
-![Image](https://github.com/Rahut3/cse15l-lab-reports/blob/main/gengar-plush.png?raw=true)
-`Image Credit:`
-[Link](https://www.pokemoncenter.com/product/701-95871/gengar-extra-large-microbead-plush-21-in)
+Hello welcome to my main page. You can find my lab reports below.
 
-*Top 3 Best Pokemon*
-```
-1. Gengar
-2. Gengar
-3. Gengar
-```
+[Lab Report 1](https://rahut3.github.io/cse15l-lab-reports/Score)
+[Lab Report 2](https://rahut3.github.io/cse15l-lab-reports/Score2)
