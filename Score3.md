@@ -17,7 +17,26 @@ This next example shows me using it to find how many occurences each lines conta
 
 ---
 
-The second command I am showcasing is ``.
+The second command I am showcasing is `grep -A # "word" FILE`. The -A in the command is used to specify how many lines to print after the line containing "word". This can be adjusted by changing the #. This can be useful by to get a brief description, or a lines of code that contains an error. It can also be used to see what lines of the word have after the Below are two examples on me using the command. Both with varying #s.
 
+![img3](lab3ss3.png)
 
+![img4](lab3ss4.png)
 
+---
+
+The third command I am showcasing is `grep -r "word" FILE`. This is similiar to the first command but now instead counting the words in a line, it showcases the line that the word is contained in. This can be useful if you want to find a line that contains that word and in which file it is in. You can use * instead of a specific file to print out all the lines that containst that word in the directory. It'll show you the line as well as the txt file.
+
+![img5](lab3ss5.png)
+
+![img6](lab3ss6.png)
+
+---
+
+The fourth and last command I am showcasing is `grep -v "word" FILE`. This command shows all the lines that doesn't contain the given "word" in a given file. `-v` basically inverts the match, therefore showcasing lines that don't match with the "word". This is useful if you want to find all the lines that doesn't contain a give "word". 
+
+![img7](lab3ss7.png)
+
+This example below utilizes `[ ]` meaning any character inside will be counted as indiviual characters rather than one word.
+
+![img8](lab3ss8.png)
