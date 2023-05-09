@@ -40,3 +40,8 @@ The fourth and last command I am showcasing is `grep -v "word" FILE`. This comma
 This example below utilizes `[ ]` meaning any character inside will be counted as indiviual characters rather than one word.
 
 ![img8](lab3ss8.png)
+
+
+Credits:
+
+First 2 examples I had gotten from asking Chat gpt. The third and fourth examples I had gotten from [here](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/). I also asked Chat GPT in some explaintions of what certain syntax did.
