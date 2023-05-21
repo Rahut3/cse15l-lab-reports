@@ -41,7 +41,12 @@ To further understand about it I then asked it:
 
 `if my current directory is in a txt file would i still need *.txt`
 
-`what does wc -1 do`
+`what does wc -1 do` <-- I misread the lower case `l` as a `1`.
+
+![gpt1](gpt1.png)
+![gpt2](gpt2.png)
+![gpt3](gpt3.png)
+
 
 ---
 
@@ -50,6 +55,8 @@ The second command I am showcasing is `grep -A # "word" FILE`. The -A in the com
 ![img3](lab3ss3.png)
 
 ![img4](lab3ss4.png)
+
+Source: [thegeekstuff.com](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/) 
 
 ---
 
@@ -79,5 +86,6 @@ it had a bunch of blank spaces in the output
 
 It responded by explaining becasue the prescence of the empty lines in the text files. Grep processes them as matching lines that doesn't contain the letter "i" therefore printing it out in the output. Furthermore, it also said to use the command `grep -v "i" text.txt | grep -v "^$"` it explains how this command applies additional grep commands using `^` to indicate the start of the line and `$` denoting the end of the line which essentially gets rid of the blank space in the output.
 
+![gpt5](gpt4.png)
 
 
