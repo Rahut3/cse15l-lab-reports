@@ -18,16 +18,29 @@ This next example shows me using it to find how many occurences each lines conta
 Credit: To find these commands I used ChatGPT with the following series of prompts:
 I first started off by saying:
 `what do the commands less, find, and grep do in bash`
+
+
 Then it listed each one of the command and their functionality. Which is when I chosed to write this report about grep.
 Then I entered: `Can you tell me all the useful grep syntaxes and their functions with examples`
-It showed me some cool ones but I didn't feel like it was interesting so then I entered the prompt: `What are some interesting ways to use the grep command in a directory full of txt files`
+
+
+It showed me some cool ones but I didn't feel like it was interesting so then I entered the prompt:
+`What are some interesting ways to use the grep command in a directory full of txt files`
+
+
 Which led me to find the command:
 `grep -o "search term" *.txt | wc -l`
+
+
 The command was listed along 3 others. I chose this one because I haven't seen it before.
 To further understand about it I then asked it:
+
 `In the third option, what is the | for`
+
 `I ran the third command and only got a number what does that mean`
+
 `if my current directory is in a txt file would i still need *.txt`
+
 `what does wc -1 do`
 
 ---
