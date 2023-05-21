@@ -15,6 +15,21 @@ This next example shows me using it to find how many occurences each lines conta
 
 ![img2](lab3ss2.png)
 
+Credit: To find these commands I used ChatGPT with the following series of prompts:
+I first started off by saying:
+`what do the commands less, find, and grep do in bash`
+Then it listed each one of the command and their functionality. Which is when I chosed to write this report about grep.
+Then I entered: `Can you tell me all the useful grep syntaxes and their functions with examples`
+It showed me some cool ones but I didn't feel like it was interesting so then I entered the prompt: `What are some interesting ways to use the grep command in a directory full of txt files`
+Which led me to find the command:
+`grep -o "search term" *.txt | wc -l`
+The command was listed along 3 others. I chose this one because I haven't seen it before.
+To further understand about it I then asked it:
+`In the third option, what is the | for`
+`I ran the third command and only got a number what does that mean`
+`if my current directory is in a txt file would i still need *.txt`
+`what does wc -1 do`
+
 ---
 
 The second command I am showcasing is `grep -A # "word" FILE`. The -A in the command is used to specify how many lines to print after the line containing "word". This can be adjusted by changing the #. This can be useful by to get a brief description, or a lines of code that contains an error. It can also be used to see what lines of the word have after the Below are two examples on me using the command. Both with varying #s.
@@ -41,6 +56,7 @@ This example below utilizes `[ ]` meaning any character inside will be counted a
 
 ![img8](lab3ss8.png)
 
+You may notice there is alot of blank lines and that is because, if there is blank/empty spaces in the file, the command grep will not exclude them. Grep will treat them as matching the expression pattern. So therefore grep will include them as part of the output. In the examples above, grep excluded vowels so therefore the blank lines are printed as they have no vowel.
 
 Credits:
 
