@@ -69,8 +69,15 @@ This example below utilizes `[ ]` meaning any character inside will be counted a
 
 ![img8](lab3ss8.png)
 
-You may notice there is alot of blank lines and that is because, if there is blank/empty spaces in the file, the command grep will not exclude them. Grep will treat them as matching the expression pattern. So therefore grep will include them as part of the output. In the examples above, grep excluded vowels so therefore the blank lines are printed as they have no vowel.
+You may notice there is alot of blank lines and that is because, if there is blank/empty spaces in the file, the command grep will not exclude them. Grep will treat them as matching the expression pattern. So therefore grep will include them as part of the output. In the examples above, grep excluded vowels so therefore the blank lines are printed as they have no vowel. I also asked ChatGPT this prompt: 
+```
+so how come when I use 
+grep -v "i" text.txt
 
-Credits:
+it had a bunch of blank spaces in the output
+```
 
-First 2 examples I had gotten from asking Chat gpt. The third and fourth examples I had gotten from [here](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/). I also asked Chat GPT in some explaintions of what certain syntax did.
+It responded by explaining becasue the prescence of the empty lines in the text files. Grep processes them as matching lines that doesn't contain the letter "i" therefore printing it out in the output. Furthermore, it also said to use the command `grep -v "i" text.txt | grep -v "^$"` it explains how this command applies additional grep commands using `^` to indicate the start of the line and `$` denoting the end of the line which essentially gets rid of the blank space in the output.
+
+
+
