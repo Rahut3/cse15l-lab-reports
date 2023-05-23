@@ -1,6 +1,8 @@
   # Lab Report 4
+  
   ---
   In this lab report, I will be discussing about what I did to reproduce what I did in Week 7 lab.
+  
   ---
 
   The steps in the lab were as followed:
