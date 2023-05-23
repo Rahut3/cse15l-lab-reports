@@ -102,7 +102,7 @@ To commit I typed `git commit -a`
 
   <img width="500" alt="image" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/88c5b004-41bd-4222-9889-fe23a47fe8da">
   
-  Then I pressed <arrow_down> * 16 times to get to the bottom, I then pressed 'i' to insert a message for the commit.
+  Then I pressed `<arrow_down>` * 16 times to get to the bottom, I then pressed 'i' to insert a message for the commit.
   
   <img width="500" alt="image" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/15522929-9b3b-418e-968a-db22f0b525c6">
   
