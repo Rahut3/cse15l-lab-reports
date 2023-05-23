@@ -91,5 +91,24 @@
   I then pressed `<up>` `<up>` `<up>` `<ENTR>` to enter the command `bash test.sh`
   
   <img width="500" alt="image" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/88530420-6866-41a5-b0bc-edd5971a530e">
-
   
+  ---
+  
+  **Step 9**
+  
+To commit I typed `git commit -a`
+
+  <img width="500" alt="image" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/88c5b004-41bd-4222-9889-fe23a47fe8da">
+  
+  Then I pressed <arrow_down> * 16 times to get to the bottom, I then pressed 'i' to insert a message for the commit.
+  
+  <img width="500" alt="image" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/15522929-9b3b-418e-968a-db22f0b525c6">
+  
+  I then entered my message "This is my commit message" and I pressed `<ESC>` to exit out of insert mode. I then typed `:wq` to save the changes and exit vim. If it successful it'll return me to my command line, which it did. 
+  
+  Unsuccesful commits may include messages instructing what you should do next or what went wrong:
+
+![image](https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/59a868d4-b906-4eea-a7be-49011c8cf2c2)
+
+
+
