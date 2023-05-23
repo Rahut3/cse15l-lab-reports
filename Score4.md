@@ -62,7 +62,7 @@
 
   *Pressing `n` until we reach the specified location.*
   
-  <img width="600" alt="image" src=https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/ffec6b5e-4678-42af-ad09-4e18b0bf84fc>
+  <img width="600" alt="image" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/ffec6b5e-4678-42af-ad09-4e18b0bf84fc">
 
   Now that we got to where we want, then I pressed `l` `l` `l` `l` `l` to move the cursor to the left or press the `<left>` key.
 
