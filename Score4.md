@@ -53,15 +53,16 @@
 
  <img width="600" alt="image" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/9517f918-6bc2-4d81-bff3-c2e118bc4a36">
 
-  To fix the error I need to move my cursor down to the error near the bottom. However, since we are using vim, I can't simply click on the line to move my cursor. Instead since I know I need to change the line containing the word `index1`, I type in: `/` and type in after `index1`. Then <enter> `n` `n` `n` `n` `n` `n` `n` `n` `n` `n`. `n` Means that you are moving your cursor to the next occurance of the typed in query.
+  To fix the error I need to move my cursor down to the error near the bottom. However, since we are using vim, I can't simply click on the line to move my cursor. Instead since I know I need to change the line containing the word `index1`, I type in: `/` and type in after `index1`. Then `<ENTR>` `n` `n` `n` `n` `n` `n` `n` `n` `n` `n`. `n` Means that you are moving your cursor to the next occurance of the typed in query.
   
   *Typing in `/index1`*
-  ![image](https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/fcc54714-c790-4644-8e18-64020822a368)
+  <img width="400" alt="image" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/fcc54714-c790-4644-8e18-64020822a368">
 
   *Pressing `n` until we reach the specified location.*
-  ![image](https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/ffec6b5e-4678-42af-ad09-4e18b0bf84fc)
+  
+  <img width="600" alt="image" src=https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/ffec6b5e-4678-42af-ad09-4e18b0bf84fc>
 
-  Now that we got to where we want, then I pressed `l` `l` `l` `l` `l` to move the cursor to the left or press the <left> key.
+  Now that we got to where we want, then I pressed `l` `l` `l` `l` `l` to move the cursor to the left or press the `<left>` key.
 
 <img width="400" alt="image" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/c6fbc483-1526-4b10-a1b1-592827117eeb">
   
@@ -77,5 +78,18 @@
   
   <img width="400" alt="image" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/0685fef9-43c1-454e-b9d4-5fadcaed1fd6">
 
+  I then pressed `<ESC>` to exit out of insert mode back to normal mode.
+  
+  Finally I then typed the command `:wq` to save the changes and exit out of vim.
+  
+ <img width="400" alt="image" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/d69b162e-4263-4bf0-8f64-780637d265a6">
+
+  ---
+  
+  **Step 8**
+  
+  I then pressed `<up>` `<up>` `<up>` `<ENTR>` to enter the command `bash test.sh`
+  
+  <img width="500" alt="image" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/88530420-6866-41a5-b0bc-edd5971a530e">
 
   
