@@ -101,7 +101,9 @@
   
 To commit I typed `git commit -m "Commit Message"` and `<ENTER>`.
 
-  <img width="500" alt="image" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/8cb14046-ecc5-4689-bbc7-5bd3a2888591">
+  <img width="500" alt="image" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/ac0905b0-3950-443a-a270-edc1fbc7834d">
+  
+  I then typed `git push` and `<ENTER>` to upload the changes to the remote repository.
   
 
 
