@@ -1,10 +1,9 @@
-  # Lab Report 4
+  ## Lab Report 4
   
-  ---
+  
   In this lab report, I will be discussing about what I did to reproduce what I did in Week 7 lab.
   
-  ---
-
+ 
   The steps in the lab were as followed:
   ```
   1. Setup Delete any existing forks of the repository you have on your account
@@ -22,7 +21,7 @@
 
   **Starting from step 4.**
 
-  I pressed the <up> arrow key once for the ssh command because I had already logged in previously before my wifi disconnecting.
+  I pressed the `<up>` arrow key once for the ssh command because I had already logged in previously before my wifi disconnecting once I had the command line in the terminal I pressed `<enter>`.
 
   
   <img width="775" alt="lab7_1" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/e60b06db-5b35-4107-b6ae-52f940748e1c">
@@ -31,9 +30,9 @@
   
   **Step 5**
   
-  I then typed the command `git clone https://github.com/ucsd-cse15l-s23/lab7` into the terminal to clone the repository `lab7` to my computer locally.
-  
-  <img width="579" alt="lab7_2" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/9e9e7845-d488-459d-89eb-8b252e514785">
+  I then typed the command `git clone git@github.com:ucsd-cse15l-s23/lab7.git` into the terminal to clone the repository `lab7` to my computer locally then press `<ENTER>`.
+ 
+  <img width="579" alt="lab7_2" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/2b0266e5-e4c6-4a5e-a7a9-28e8c5b21adc">
   
   *Note*: Since I had already done this in lab, to recreate what you would see I used the command `rm -fr lab7`. This command removes using `rm` lab7's directory and its contents recursively. `-f` means to forcefully delete them without asking permission and `r` makes it so `rm` deletes its contents and recrusively. I found this command through visiting this [website](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/delete-local-git-repository-repo-command-windows-linux-rm#:~:text=Command%20line%20Git%20repository%20delete&text=Just%20run%20the%20rm%20command,and%20folder%20to%20remain%20untouched).
 
@@ -43,7 +42,7 @@
   
   **Step 6**
   
-  I then changed my directory to lab7 by typing `cd lab7`. Then I pressed <up> <up> <up> till I got to the command `bash test.sh`. The result I get is the junit tester saying that there was 1 test failure.
+  I then changed my directory to lab7 by typing `cd lab7`. Then I pressed `<up>` `<up>` `<up>` till I got to the command `bash test.sh` then `<ENTER>`. The result I get is the junit tester saying that there was 1 test failure.
   
   <img width="614" alt="image" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/38f231ac-65b0-4623-83c1-4b0bc805b1a7">
   
@@ -51,13 +50,13 @@
   
   **Step 7** 
   
-  Now to fix the mistake I first have to type the command `vim ListExamples.java`. This is what I see after typing that in:
+  Now to fix the mistake I first have to type the command `vim ListExamples.java` then `<ENTER>`. This is what I see after typing that in:
 
  <img width="600" alt="image" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/9517f918-6bc2-4d81-bff3-c2e118bc4a36">
 
-  To fix the error I need to move my cursor down to the error near the bottom. However, since we are using vim, I can't simply click on the line to move my cursor. Instead since I know I need to change the line containing the word `index1`, I type in: `/` and type in after `index1`. Then `<ENTR>` `n` `n` `n` `n` `n` `n` `n` `n` `n` `n`. `n` Means that you are moving your cursor to the next occurance of the typed in query.
+  To fix the error I need to move my cursor down to the error near the bottom. However, since we are using vim, I can't simply click on the line to move my cursor. Instead since I know I need to change the line containing the word `index1`, I type in: `/` and type in after `index1`. Then `<ENTER>` `n` `n` `n` `n` `n` `n` `n` `n` `n` `n`. `n` Means that you are moving your cursor to the next occurance of the typed in query.
   
-  *Typing in `/index1`*
+  *Typing in `/index1` and pressing `<ENTER>`*
   <img width="400" alt="image" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/fcc54714-c790-4644-8e18-64020822a368">
 
   *Pressing `n` until we reach the specified location.*
@@ -76,13 +75,13 @@
   
   <img width="400" alt="image" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/9978b522-6cd9-406f-acfd-b5d0b47e1926">
   
-  Then I type in the number 2.
+  Then I type in the number `2`.
   
   <img width="400" alt="image" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/0685fef9-43c1-454e-b9d4-5fadcaed1fd6">
 
   I then pressed `<ESC>` to exit out of insert mode back to normal mode.
   
-  Finally I then typed the command `:wq` to save the changes and exit out of vim.
+  Finally I then typed the command `:wq` and `<ENTER>` to save the changes and exit out of vim.
   
  <img width="400" alt="image" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/d69b162e-4263-4bf0-8f64-780637d265a6">
 
@@ -90,7 +89,7 @@
   
   **Step 8**
   
-  I then pressed `<up>` `<up>` `<up>` `<ENTR>` to enter the command `bash test.sh`
+  I then pressed `<up>` `<up>` `<up>` `<ENTER>` to enter the command `bash test.sh` (or you can manually type the command out).
   
   <img width="500" alt="image" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/88530420-6866-41a5-b0bc-edd5971a530e">
   
@@ -98,19 +97,13 @@
   
   **Step 9**
   
-To commit I typed `git commit -a`
+  I then typed `git add ListExamples.java` and `<ENTER>`. This commands tells git to include the changes made to the ListExamples.java file in the next commit. Reference [website](https://www.atlassian.com/git/tutorials/saving-changes#:~:text=The%20git%20add%20command%20adds,file%20in%20the%20next%20commit.)
+  
+To commit I typed `git commit -m "Commit Message"` and `<ENTER>`.
 
-  <img width="500" alt="image" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/88c5b004-41bd-4222-9889-fe23a47fe8da">
+  <img width="500" alt="image" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/8cb14046-ecc5-4689-bbc7-5bd3a2888591">
   
-  Then I pressed `<arrow_down>` * 16 times to get to the bottom, I then pressed 'i' to insert a message for the commit.
-  
-  <img width="500" alt="image" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/15522929-9b3b-418e-968a-db22f0b525c6">
-  
-  I then entered my message "This is my commit message" and I pressed `<ESC>` to exit out of insert mode. I then typed `:wq` to save the changes and exit vim. If it successful it'll return me to my command line, which it did. 
-  
-  Unsuccesful commits may include messages instructing what you should do next or what went wrong:
 
-![image](https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/59a868d4-b906-4eea-a7be-49011c8cf2c2)
 
 
 
