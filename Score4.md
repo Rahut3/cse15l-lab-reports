@@ -30,7 +30,7 @@
   
   **Step 5**
   
-  I then typed the command `git clone git@github.com:Rahut3/lab7.git` into the terminal to clone the repository `lab7` to my computer locally then press `<ENTER>`.
+  I then typed the command `git clone git@github.com:Rahut3/lab7.git` into the terminal to clone the repository `lab7` to my computer locally then press `<ENTER>`. Which I got from my github [website](https://github.com/Rahut3/lab7).
 
   <img width="579" alt="lab7_2" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/2e8e4f91-377f-42b1-8c01-c1f69419cf8f">
   
