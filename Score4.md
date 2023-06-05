@@ -33,7 +33,7 @@
 
   <img width="579" alt="lab7_2" src="https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/2e8e4f91-377f-42b1-8c01-c1f69419cf8f">
   
-  *Note*: Since I had already done this in lab, to recreate what you would see I used the command `rm -fr lab7`. This command removes using `rm` lab7's directory and its contents recursively. `-f` means to forcefully delete them without asking permission and `r` makes it so `rm` deletes its contents and recrusively. I found this command through visiting this [website](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/delete-local-git-repository-repo-command-windows-linux-rm#:~:text=Command%20line%20Git%20repository%20delete&text=Just%20run%20the%20rm%20command,and%20folder%20to%20remain%20untouched).
+  *Note*: Since I had already done this in lab, to recreate what you would see I used the command `rm -fr lab7` and pressed `<ENTER>`. This command removes using `rm` lab7's directory and its contents recursively. `-f` means to forcefully delete them without asking permission and `r` makes it so `rm` deletes its contents and recrusively. I found this command through visiting this [website](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/delete-local-git-repository-repo-command-windows-linux-rm#:~:text=Command%20line%20Git%20repository%20delete&text=Just%20run%20the%20rm%20command,and%20folder%20to%20remain%20untouched).
 
   ![image](https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/b05bcb81-1e38-4959-a968-21ecd54e2074)
   
