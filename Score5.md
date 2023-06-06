@@ -23,4 +23,30 @@ In this final lab report I am writing about a debugging scenario between a stude
 
 **TA's response**
 
-Hi, Rahut looks like the error is being caused from the grade.sh file. The error
+Hi, Rahut looks like the error is being caused from the grade.sh file. The error is caused by you not including the hamcrest class path in your bash script when running javac and java. Therefore the bash script couldn't find the hamcrest path so therefore it wouldn't excute the JUNIT test. To fix this make sure you include the hamcrest class path inside your javac/java statements. Take a look at Week 3 to see the proper command to run JUNIT tests.
+
+
+**Student Response**
+
+Thank you! This is the changes I made to my bash script to make it run the JUNIT tests.
+
+*Fixed grade.sh:*
+
+```
+javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar test.java
+
+
+if [ $? -eq 0 ]; 
+then
+    echo "Compile successful."
+
+    java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore test
+
+else
+    echo "Compile failed."
+fi
+```
+
+*Output:*
+
+![image](https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/6c95c0a5-1710-4d94-b196-c88bd26d2980)
