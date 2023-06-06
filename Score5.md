@@ -50,3 +50,29 @@ fi
 *Output:*
 
 ![image](https://github.com/Rahut3/cse15l-lab-reports/assets/116214329/6c95c0a5-1710-4d94-b196-c88bd26d2980)
+
+
+### Recreation
+
+To recreate this scenario, you would need in a folder: a `lib` folder containing the hamcrest-core and JUNIT test java file. Then you would need a java file and another java file for junit testing of the java file. Then you would need a bash file with the following code:
+
+*Note: replace the `[FILE]` with the name of the file that contains the JUNIT tests*
+
+```
+javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar [FILE].java
+
+
+if [ $? -eq 0 ]; 
+then
+    echo "Compile successful."
+
+    java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore [FILE]
+
+else
+    echo "Compile failed."
+fi
+```
+
+## Part 2
+
+This being my first lab I've taken, it was a memorable one. I learned many cool things, however learning more about what you can do in the terminal was the coolest for me. I had always thought the terminal was only used for reading outputs, or for user input, I've never knew you can actually edit code, upload changes, clone code, and etc. Through the assignments I was more comfortable using git commands to make changes and upload them to github. Futhermore, I also learned how to work better as a team through the labs. As the lab was aimed towards interactions I've met new friends and that just made it more fun to learn about these topics. While confusing at first, Professor Joe and the tutors helped make the topics we were learning easier to understand. Professor Joe is always so energetic and involved in the course it kepted me engaged. The tutors also were easy to talk to and super friendly. Even when emailing them, they responded super fast and were super helpful.
